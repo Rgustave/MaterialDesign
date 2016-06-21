@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  This code are Copyrighted by Mugabo Gustave
+  -->
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.supadilo.toolbar.Profile"
+    tools:showIn="@layout/profile">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    >
+
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+    <include layout="@layout/scroll_view_item" />
+
+
+
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+

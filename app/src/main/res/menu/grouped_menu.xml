@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  This code are Copyrighted by Mugabo Gustave
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <group android:id="@+id/group_entertainment"
+       android:checkableBehavior="single">
+
+
+
+    <item
+
+        android:id="@+id/drawer_hotel"
+        android:icon="@drawable/ic_local_hotel"
+        android:orderInCategory="100"
+        android:title="Hotel"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:id="@+id/drawer_eatndrinks"
+        android:icon="@drawable/ic_local_dining"
+        android:orderInCategory="100"
+        android:title="Eat and Drinks"
+        app:showAsAction="always"
+        />
+   </group>
+
+    <group android:id="@+id/group_education"
+        android:checkableBehavior="single">
+
+        android:id="@+id/drawer_school"
+        android:icon="@drawable/ic_school"
+        android:orderInCategory="100"
+        android:title="School"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:id="@+id/drawer_libray"
+        android:icon="@drawable/ic_local_library"
+        android:orderInCategory="100"
+        android:title="Libray"
+        app:showAsAction="always"
+        />
+        <item
+
+            android:id="@+id/drawer_school"
+            android:icon="@drawable/ic_local_library"
+            android:orderInCategory="100"
+            android:title="School"
+            app:showAsAction="always"
+            />
+    </group>
+
+</menu>

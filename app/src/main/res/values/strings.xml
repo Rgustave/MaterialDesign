@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="drawer_open">Drawer Opned</string>
+    <string name="title_activity_profile">Profile</string>
+
+</resources>
